@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className='container'>
  
       <header className={'flex justify-between items-center pt-4 headMedia'}>
         <div>

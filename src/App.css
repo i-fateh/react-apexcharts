@@ -6,6 +6,14 @@
   text-align: center;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -15,10 +23,19 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
 
+.headMedia {
+  margin-bottom: 100px;
+  width: 100%;
+  text-align: left;
+}
+
+@media only screen and (max-width: 900px) {
   .headMedia {
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
   }
 }
 
