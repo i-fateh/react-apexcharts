@@ -44,13 +44,13 @@ function App() {
         </div>
       </header>
 
-      <div class="flex flex-wrap justify-center items-center pl-14 pr-14">
+      <div class="boxGraph">
         <div className='m-2'><Bars/></div>
         <div className='m-2'><Donut/></div>
         <div className='m-2'><Radar/></div>
       </div>
               
-      <div class="flex flex-wrap justify-center items-center pl-14 pr-14">
+      <div class="boxGraph">
       <div className='m-2'><Line/></div>
         <div className='m-2'><Horizontal/></div>
         <div className='m-2'><Radial/></div>
