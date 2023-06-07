@@ -4,12 +4,13 @@
 
 .App {
   text-align: center;
+  
 }
 
 .container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center !important;
+  justify-content: center !important;
   flex-direction: column;
   width: 100%;
   margin: 0 auto;
@@ -27,18 +28,20 @@
 }
 
 .headMedia {
-  margin-bottom: 100px;
-  width: 100%;
+  margin-bottom: 40px;
+  width: 100vw;
   text-align: left;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 10px;
 }
-
 
 .boxGraph {
   width: 100%;
   display: flex;
   align-items: center !important;
   justify-content: center !important;
-  margin-bottom: 100px;
 }
 .boxGraph > div {
   width: 100vw;
@@ -46,18 +49,22 @@
 
 
 @media only screen and (max-width: 900px) {
-  .headMedia {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30px;
-  }
+
   .container {
-    min-width: 100%;
+    width: 100%;
     display: flex;
     align-items: center !important;
     justify-content: center !important;
   }
-
+  .container > .headMedia {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  
   .boxGraph {
     width: 100%;
     display: flex;

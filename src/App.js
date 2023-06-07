@@ -31,8 +31,7 @@ function App() {
 
   return (
     <div className='container'>
- 
-      <header className={'flex justify-between items-center pt-4 headMedia'}>
+      <header className={'headMedia'}>
         <div>
         <h1 className='text-4xl lg:text-5xl ml-10 font-semibold text-left'>ApexCharts / React</h1>
         <p className='text-xl lg:text-3xl font-thin ml-10 xs:text-white'>with random data [{<CountUp duration={1} end={data1} />} / {<CountUp end={data2} />} / {<CountUp end={data3} />} / {<CountUp end={data4} />}]</p>
@@ -40,7 +39,7 @@ function App() {
         <div className='flex'>
           <a href='https://www.linkedin.com/in/fatehelboucherour/' rel="noreferrer" target={"_blank"}><img src='../logo-linkedin.png' className='h-12 w-12 icon' alt='' /></a>
           {/* <a href='' rel="noreferrer" target={"_blank"}><img src='../logo-github.jpg' className='mr-1 h-12 w-12 icon' alt='' /></a> */}
-          <img src='../fateh.png' className='mr-8 w-12 h-12' alt='' />
+          <img src='../fateh.png' className='lg:mr-8 w-12 h-12' alt='' />
         </div>
       </header>
 
