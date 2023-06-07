@@ -35,7 +35,7 @@ function App() {
       <header className={'flex justify-between items-center pt-4 headMedia'}>
         <div>
         <h1 className='text-4xl lg:text-5xl ml-10 font-semibold text-left'>ApexCharts / React</h1>
-        <p className='text-2xl lg:text-3xl font-thin ml-10 xs:text-white'>with random data [{<CountUp duration={1} end={data1} />} / {<CountUp end={data2} />} / {<CountUp end={data3} />} / {<CountUp end={data4} />}]</p>
+        <p className='text-xl lg:text-3xl font-thin ml-10 xs:text-white'>with random data [{<CountUp duration={1} end={data1} />} / {<CountUp end={data2} />} / {<CountUp end={data3} />} / {<CountUp end={data4} />}]</p>
         </div>
         <div className='flex'>
           <a href='https://www.linkedin.com/in/fatehelboucherour/' rel="noreferrer" target={"_blank"}><img src='../logo-linkedin.png' className='h-12 w-12 icon' alt='' /></a>
